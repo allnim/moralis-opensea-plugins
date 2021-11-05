@@ -1,16 +1,6 @@
-import React, { useState, useEffect, useMemo } from "react";
-import { useMoralis } from "react-moralis";
-import {
-	Flex,
-	Box,
-	Spacer,
-	Heading,
-	Button,
-	Stack,
-	Input,
-	NumberInput,
-	NumberInputField,
-} from "@chakra-ui/react";
+import React, {useEffect, useMemo, useState} from "react";
+import {useMoralis} from "react-moralis";
+import {Box, Button, Flex, Heading, Input, NumberInput, NumberInputField, Spacer, Stack,} from "@chakra-ui/react";
 import "./App.css";
 
 function App() {
