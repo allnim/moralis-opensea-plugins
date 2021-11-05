@@ -67,7 +67,7 @@ function App() {
 			tokenType: "ERC721",
 			amount: 0.0001,
 			userAddress: web3Account,
-			paymentTokenAddress: "0xc778417e063141139fce010982780140aa0cd5ab",
+			paymentTokenAddress: "0xce325f8e7A2B3632D77d3E6028a35562ee0486B8",
 		});
 
 		console.log("Create Buy Order Successful");
@@ -91,7 +91,7 @@ function App() {
 		<>
 			<Flex sx={{ margin: 3 }}>
 				<Box p="2">
-					<Heading size="md">Moralis OpenSea</Heading>
+					<Heading size="md">Copyright Flow @ OpenSea</Heading>
 				</Box>
 				<Spacer />
 				<Box>
